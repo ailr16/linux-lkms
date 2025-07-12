@@ -3,6 +3,9 @@
         "*.c": "c",
         "module.h": "c",
         "list.h": "c",
-        "container_of.h": "c"
-    }
+        "container_of.h": "c",
+        "kmod.h": "c",
+        "init.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
