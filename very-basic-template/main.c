@@ -1,7 +1,13 @@
 #include <linux/module.h>
+#include <linux/init.h>
+
+static int num = 5;
+
+module_param(num, int, S_IRUGO);
 
 static int __init lkmName_init(void){
     pr_info("Hello world\n");
+    pr_info("parameter num = %d\n", num);
 
     return 0;
 }
