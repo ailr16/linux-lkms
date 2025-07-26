@@ -1,1 +1,0 @@
-savedcmd_/home/ailr16/Documents/git/linux-lkms/gpio/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/ailr16/Documents/git/linux-lkms/gpio/Module.symvers -T /home/ailr16/Documents/git/linux-lkms/gpio/modules.order -i Module.symvers -e 
